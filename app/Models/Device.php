@@ -13,7 +13,8 @@ class Device extends Model
         'dvc_name',
         'dvc_description',
         'created_at',
-        'updated_at'
+        'updated_at',
+        'user_id'
     ];
 
     protected $primaryKey='id';
